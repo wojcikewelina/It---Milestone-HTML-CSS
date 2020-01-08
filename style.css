@@ -1,0 +1,147 @@
+body {
+    background-color: silver;
+}
+
+header,
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header>div {
+    display: inline-block;
+}
+
+.left-header {
+    width: 50%;
+    text-align: center;
+    font-style: italic;
+}
+
+#name {
+    font-size: 2.5em;
+}
+
+.photo-header {
+    width: 110px;
+    height: 140px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Robert_Downey_Jr._as_Iron_Man_in_Avengers_Infinity_War.jpg/220px-Robert_Downey_Jr._as_Iron_Man_in_Avengers_Infinity_War.jpg);
+    background-size: cover;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin: 5px 0 0 0;
+    top: 0px;
+}
+
+.photo-header:hover{
+    background-image: url(http://3.bp.blogspot.com/-uGduEWaViCA/TuOGtX_4gPI/AAAAAAAAAaM/C_JofYA-RGU/s1600/nyan-cat-original.gif);
+    background-size: cover;
+}
+
+.right-header {
+    line-height: 8px;
+    margin: 0 0 0 0.5%;
+    width: 34%;
+    font-size: 10px;
+}
+
+#pdfButton {
+    width: 100%;
+    background-color: grey;
+    color: honeydew;
+    border: rgb(24, 23, 23) solid 0.5px;
+}
+
+section {
+    width: 100%;
+    border-top: solid rgb(104, 104, 104) 0.5px;
+}
+section:last-child {
+    width: 100%;
+    border-bottom: solid rgb(104, 104, 104) 0.5px;
+}
+section div:first-child {
+    width: 12%;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+section div+div {
+    width: 85%
+}
+
+section div {
+    display: inline-block;
+}
+
+#firstSection ul {
+    padding-left: 20px;
+}
+
+#secondSection span {
+    display: inline-block;
+    width: 18%;
+    margin-top: 5px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%
+}
+#secondSection span+span {
+    
+    border-left: black solid 1px;
+    }
+
+#thirdsection td {
+    width: 19%;
+    margin-top: 6px;
+}
+.table-line td {
+    border-bottom: brown 1px solid;
+    padding: 0 .2em;
+}
+#thirdsection td:first-child{
+    color: grey;
+    font-style: italic;
+}
+
+#thirdsection table {
+    margin-top: 6px;
+    border-collapse: collapse;
+}
+
+#fourthSection h3{
+    margin-bottom: 0px;
+}
+
+.data-position {
+    position: absolute;
+    left: 82%;
+    font-weight: bold;
+}
+
+.p-data {
+    display: inline
+}
+
+
+#hiddenPart {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(183, 185, 187);
+    bottom: -1px;
+    text-align: center;
+}
+a{
+    color:red
+}
